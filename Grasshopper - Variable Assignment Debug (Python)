@@ -1,0 +1,9 @@
+""" 
+https://www.codewars.com/kata/reviews/5623cd037622132a1d0000ca/groups/5623dd80b27a64d94400006d
+Problem solution 
+""" 
+
+a = "dev"
+b = "Lab"
+
+name = a + b
