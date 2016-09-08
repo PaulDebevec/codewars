@@ -1,0 +1,9 @@
+"""
+Solution to
+https://www.codewars.com/kata/pre-fizzbuzz-workout-number-1/train/python
+"""
+
+
+def pre_fizz(n):
+    num=list(range(1, n+1))
+    return num
