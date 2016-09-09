@@ -1,0 +1,13 @@
+"""
+Problem solution for
+https://www.codewars.com/kata/56a3f08aa9a6cc9b75000023
+"""
+
+
+
+import re
+def validate_usr(username):
+    if len(username) >= 4 <= 16 and re.match("^[a-z0-9_]*$", username):
+        return True
+    else:
+        return False
