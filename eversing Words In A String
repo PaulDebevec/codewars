@@ -1,0 +1,11 @@
+"""
+Problem solution for
+https://www.codewars.com/kata/reviews/57a7772702f095ae6d00017c/groups/57a777278450794e6b0000c1
+
+"""
+
+
+def reverse(st):
+    st = st.split(' ')
+    st.reverse()
+    return ' '.join(st)
