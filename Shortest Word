@@ -1,0 +1,12 @@
+"""
+Problem solution for 
+https://www.codewars.com/kata/reviews/57cf0c8d50c3e50133000055/groups/57d20cac05c1865705000546
+"""
+
+def find_short(s):
+    length = len(s)
+    s = s.split()
+    for word in s:
+        if length > len(word):
+            length = len(word)     
+    return length 
