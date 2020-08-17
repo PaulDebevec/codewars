@@ -7,6 +7,7 @@ class BuildTowerTest < Minitest::Test
     assert_equal(['*'], towerBuilder(1))
     assert_equal([' * ', '***'], towerBuilder(2))
     assert_equal(['  *  ', ' *** ', '*****'], towerBuilder(3))
+    assert_equal(['   *   ', '  ***  ', ' ***** ', '*******'], towerBuilder(4))
   end
 end
 
