@@ -1,3 +1,7 @@
 def count_chars(s)
-  # your code here
+  result = {}
+  s.split('').each do |letter|
+    result[letter] = s.count(letter)
+  end
+  result
 end
