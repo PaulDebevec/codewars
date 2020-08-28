@@ -14,7 +14,8 @@ class SortArrayTest < Minitest::Test
     assert_equal([19], sort_array([19]))
     assert_equal([2], sort_array([2]))
     assert_equal([5,7], sort_array([7,5]))
-    assert_equal([-1, -3, -2, -5], sort_array([-3, -1, -2, -5]))
+    assert_equal([], sort_array([nil]))
+    assert_equal([1, 3, 5, 2, 7], sort_array([5, 3, 7, nil, 2, 1]))
   end
 end
 
